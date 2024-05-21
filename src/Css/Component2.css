@@ -1,0 +1,100 @@
+@import url("https://fonts.cdnfonts.com/css/billy-ohio");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-lt-narrow");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+.box3 p {
+  font-size: 70px;
+  line-height: 96px;
+  color: #ffffff;
+  font-family: "billy ohio";
+  text-align: center;
+  filter: drop-shadow(3.709px 1.498px 0px rgba(0, 0, 0, 0.5));
+  margin-top: 50px;
+  text-align: center;
+  cursor: default;
+}
+
+.bike1 {
+  display: flex;
+  position: absolute;
+  left: -500px;
+  top: 20rem;
+  height: 450px;
+  transition: transform 0.4s;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: column;
+  margin: 35px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  animation: slideIn 0.5s ease forwards;
+}
+
+
+
+.box4 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.box4 h2 {
+  margin-top: 1rem;
+  font-size: 26px;
+  color: #202020;
+  font-weight: bold;
+  font-family: "Helvetica LT Std";
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.box4 p {
+  margin-top: 0.5rem;
+  width: 100%;
+  max-width: 385px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #676767;
+  font-weight: 500;
+  font-family: "Lato";
+  height: auto;
+  text-align: left;
+}
+
+.box4 button {
+  width: 112px;
+  border-radius: 19px;
+  background-color: #cd0a2d;
+  height: 38px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  animation: slideIn 0.5s ease forwards;
+  align-items: start;
+  margin-top: 10px;
+}
+
+button:hover {
+  box-shadow: 0px 0px 0px 2px #cd0a2d;
+}
+
+@media only screen and (max-width: 768px)  {
+  .tour-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: -250px;
+    margin-left: -20px;
+  }
+  .box5 {
+    flex-direction:column !important;
+  }
+
+  .box4 p {
+    height: 106px;
+  }
+}

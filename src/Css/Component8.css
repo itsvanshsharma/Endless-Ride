@@ -1,0 +1,19 @@
+.last-box {
+    height: 185px;
+    width: 100%;
+    background-color: #cd0a2d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .last-box p {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+  }
